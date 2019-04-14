@@ -1,0 +1,11 @@
+extends layout
+
+block header
+  .section.message
+    .container
+      h1=message
+      h2= error.status
+block content
+  .section.content
+    .container
+      pre #{error.stack}
