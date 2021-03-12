@@ -1,5 +1,5 @@
 module.exports = {
-    MONGO_URL: 'mongodb://admin:c00lpass@localhost:27017',
+    MONGO_URL: 'mongodb://root:example@localhost:27018',
     JWT_TOKEN: 'YjZkMGViMjJmYTFiMTRhZTliMGRiMzc0',
     mailer: {
         server: {
@@ -8,7 +8,7 @@ module.exports = {
             secure: false,
         },
         defaults: {
-            from: 'NFL Mailer <noreply@mailer.com>'
+            from: 'Example Server <noreply@mailer.com>'
         }
     }
 }

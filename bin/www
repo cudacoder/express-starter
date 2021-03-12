@@ -4,11 +4,11 @@
  * Module dependencies.
  */
 
-var app = require('../app');
+var app = require('../src/app');
 var debug = require('debug')('nfl:server');
 var http = require('http');
 var mongoose = require('mongoose');
-var { MONGO_URL } = require('../config');
+var { MONGO_URL } = require('../src/config');
 
 /**
  * Get port from environment and store in Express.
